@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.6.4",
+  "npmVersion": "6.7.0",
+  "pnpmOptions": {},
+  "nodeSupportedVersionRange": ">=8.9.4 <9.0.0",
+  "gitPolicy": {},
+  "repository": {},
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "projects": [
+    {
+      "packageName": "org-library",
+      "projectFolder": "libraries/org-library"
+    },
+    {
+      "packageName": "org-app",
+      "projectFolder": "apps/org-app"
+    }
+  ]
+}

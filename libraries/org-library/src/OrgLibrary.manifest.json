@@ -1,0 +1,9 @@
+{
+  "id": "da86a1d7-fa40-4a1a-9c34-46644d3041c7",
+  "alias": "OrgLibrary",
+  "componentType": "Library",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2
+}
