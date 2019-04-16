@@ -11,6 +11,7 @@
     "test": "gulp test"
   },
   "dependencies": {
+    "org-library":"0.0.1",
     "@microsoft/sp-core-library": "1.8.0-plusbeta",
     "@microsoft/sp-property-pane": "1.8.0-plusbeta",
     "@microsoft/sp-webpart-base": "1.8.0-plusbeta",

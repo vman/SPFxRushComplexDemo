@@ -9,6 +9,8 @@ import { escape } from '@microsoft/sp-lodash-subset';
 import styles from './HelloWorldWebPart.module.scss';
 import * as strings from 'HelloWorldWebPartStrings';
 
+import { OrgLibrary } from "org-library";
+
 export interface IHelloWorldWebPartProps {
   description: string;
 }
@@ -31,6 +33,9 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<IHelloWorld
           </div>
         </div>
       </div>`;
+
+      const orgLibInstance = new OrgLibrary();
+      console.log(orgLibInstance.getCurrentTime());
   }
 
   protected get dataVersion(): Version {

@@ -1896,7 +1896,7 @@
     },
     "@rush-temp/org-app": {
       "version": "file:projects/org-app.tgz",
-      "integrity": "sha512-MjKigV392W/qUpJ4bFKD3vXO++gj4PiSsdk01Q33ogSkz1Pmco3loZ67GXlJJ2YF5/87E6toNqqXoBUbrFg8/g==",
+      "integrity": "sha512-c+SYz5O4+kRu+av9XbRfA/wPv3ulaHxbqNrG6JVQ1x+1BkMbow/SIR2Cfqg7Rs25PcK6gEvzzGfQxJ7GtLwxOg==",
       "requires": {
         "@microsoft/rush-stack-compiler-2.7": "0.4.0",
         "@microsoft/sp-build-web": "1.8.0-plusbeta",
