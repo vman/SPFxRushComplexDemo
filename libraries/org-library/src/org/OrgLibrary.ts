@@ -3,6 +3,6 @@ export default class OrgLibrary {
     return 'OrgLibrary';
   }
   public getCurrentTime(): string {
-    return 'The current time as returned from the corporate library is ' + new Date().toTimeString();
+    return 'The time as returned from the org library is ' + new Date().toTimeString();
   }
 }
