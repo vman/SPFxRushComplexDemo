@@ -15,6 +15,10 @@
     {
       "packageName": "org-app",
       "projectFolder": "apps/org-app"
+    },
+    {
+      "packageName": "my-app",
+      "projectFolder": "apps/my-app"
     }
   ]
 }
